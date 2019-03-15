@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous"> -->
   </head>
-  <body style="padding-top: 72px;"><div class="d-none"><svg width="0" height="0" class="hidden">
+  <body style="padding-top: 72px; margin:0 !important"><div class="d-none"><svg width="0" height="0" class="hidden">
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="calls-1">
     <title>Calls</title>
     <desc>A line styled icon from Orion Icon Library.</desc>
@@ -1407,169 +1407,13 @@
         </div>
       </div>
     </section>
-    <section class="py-6 bg-gray-100">
-      <div class="container">
-        <div class="text-center pb-lg-4">
-        
-          <h2 class="mb-5">How to booking</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 mb-3 mb-lg-0 text-center">
-            <div class="px-0 px-lg-3">
-              <div class="icon-rounded bg-primary-light mb-3">
-                <svg class="svg-icon text-primary w-2rem h-2rem">
-                  <use xlink:href="#destination-map-1"> </use>
-                </svg>
-              </div>
-              <h3 class="h5">Find the perfect rental</h3>
-              <p class="text-muted">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in</p>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-3 mb-lg-0 text-center">
-            <div class="px-0 px-lg-3">
-              <div class="icon-rounded bg-primary-light mb-3">
-                <svg class="svg-icon text-primary w-2rem h-2rem">
-                  <use xlink:href="#pay-by-card-1"> </use>
-                </svg>
-              </div>
-              <h3 class="h5">Book with confidence</h3>
-              <p class="text-muted">The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit</p>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-3 mb-lg-0 text-center">
-            <div class="px-0 px-lg-3">
-              <div class="icon-rounded bg-primary-light mb-3">
-                <svg class="svg-icon text-primary w-2rem h-2rem">
-                  <use xlink:href="#heart-1"> </use>
-                </svg>
-              </div>
-              <h3 class="h5">Enjoy your vacation</h3>
-              <p class="text-muted">His room, a proper human room although a little too small, lay peacefully between its four familiar </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="py-6 bg-white">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-8">
-            <p class="subtitle text-primary">Stay and eat like a local</p>
-            <h2>Our guides</h2>
-          </div>
-          <div class="col-md-4 d-lg-flex align-items-center justify-content-end"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="text-muted text-sm">
-               
-              See all guides<i class="fas fa-angle-double-right ml-2"></i></a></div>
-        </div>
-        <div class="row">
-          <div class="swiper-container guides-slider swiper-container-horizontal">
-            <!-- Additional required wrapper-->
-            <div class="swiper-wrapper pb-5" style="transform: translate3d(-924px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide h-auto px-2 swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="0">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="<?php echo base_url('').'assets/'?>img/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/new-york.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">New York</h6>
-                    <p class="card-text text-sm">The big apple</p>
-                  </div>
-                </div>
-              </div><div class="swiper-slide h-auto px-2 swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="1">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/paris.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">Paris</h6>
-                    <p class="card-text text-sm">Artist capital of Europe</p>
-                  </div>
-                </div>
-              </div><div class="swiper-slide h-auto px-2 swiper-slide-duplicate" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="2">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/barcelona.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">Barcelona</h6>
-                    <p class="card-text text-sm">Dalí, Gaudí, Barrio Gotico</p>
-                  </div>
-                </div>
-              </div><div class="swiper-slide h-auto px-2 swiper-slide-duplicate swiper-slide-prev" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="3">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/prague.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">Prague</h6>
-                    <p class="card-text text-sm">City of hundred towers</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Slides-->
-              <div class="swiper-slide h-auto px-2 swiper-slide-active" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="0">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/new-york.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">New York</h6>
-                    <p class="card-text text-sm">The big apple</p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide h-auto px-2 swiper-slide-next" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="1">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/paris.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">Paris</h6>
-                    <p class="card-text text-sm">Artist capital of Europe</p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide h-auto px-2" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="2">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/barcelona.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">Barcelona</h6>
-                    <p class="card-text text-sm">Dalí, Gaudí, Barrio Gotico</p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide h-auto px-2 swiper-slide-duplicate-prev" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="3">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/prague.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">Prague</h6>
-                    <p class="card-text text-sm">City of hundred towers</p>
-                  </div>
-                </div>
-              </div>
-            <div class="swiper-slide h-auto px-2 swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="0">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/new-york.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">New York</h6>
-                    <p class="card-text text-sm">The big apple</p>
-                  </div>
-                </div>
-              </div><div class="swiper-slide h-auto px-2 swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="1">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/paris.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">Paris</h6>
-                    <p class="card-text text-sm">Artist capital of Europe</p>
-                  </div>
-                </div>
-              </div><div class="swiper-slide h-auto px-2 swiper-slide-duplicate" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="2">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/barcelona.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">Barcelona</h6>
-                    <p class="card-text text-sm">Dalí, Gaudí, Barrio Gotico</p>
-                  </div>
-                </div>
-              </div><div class="swiper-slide h-auto px-2 swiper-slide-duplicate" style="width: 216px; margin-right: 15px;" data-swiper-slide-index="3">
-                <div class="card card-poster gradient-overlay mb-4 mb-lg-0"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="tile-link"></a><img src ="<?php echo base_url('').'assets/'?>img/prague.jpg" alt="Card image" class="bg-image">
-                  <div class="card-body overlay-content">
-                    <h6 class="card-title text-shadow text-uppercase">Prague</h6>
-                    <p class="card-text text-sm">City of hundred towers</p>
-                  </div>
-                </div>
-              </div></div>
-            <div class="swiper-pagination d-md-none swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-bullets-dynamic" style="width: 40px;"><span class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main" tabindex="0" role="button" aria-label="Go to slide 1" style="left: 12px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next" tabindex="0" role="button" aria-label="Go to slide 2" style="left: 12px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next-next" tabindex="0" role="button" aria-label="Go to slide 3" style="left: 12px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4" style="left: 12px;"></span></div>
-          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-        </div>
-      </div>
-    </section>
     <section class="py-6 bg-gray-100"> 
       <div class="container">
         <div class="row mb-5">
-          <div class="col-md-8">
-            <p class="subtitle text-secondary">Hurry up, these are expiring soon.        </p>
-            <h2>Last minute deals</h2>
+          <div class="col-md-12">
+          <p style = "margin:0 !important" class="subtitle text-secondary">Pick your spots and let us frame it forever</p>
+          <h2>Destination</h2>
           </div>
-          <div class="col-md-4 d-lg-flex align-items-center justify-content-end"><a href="https://demo.bootstrapious.com/directory/1-1/category.html" class="text-muted text-sm">
-               
-              See all deals<i class="fas fa-angle-double-right ml-2"></i></a></div>
         </div>
         <!-- Slider main container-->
         <div data-swiper="{&quot;slidesPerView&quot;:4,&quot;spaceBetween&quot;:20,&quot;loop&quot;:true,&quot;roundLengths&quot;:true,&quot;breakpoints&quot;:{&quot;1200&quot;:{&quot;slidesPerView&quot;:3},&quot;991&quot;:{&quot;slidesPerView&quot;:2},&quot;565&quot;:{&quot;slidesPerView&quot;:1}},&quot;pagination&quot;:{&quot;el&quot;:&quot;.swiper-pagination&quot;,&quot;clickable&quot;:true,&quot;dynamicBullets&quot;:true}}" class="swiper-container swiper-container-mx-negative swiper-init swiper-container-horizontal">
@@ -1988,7 +1832,7 @@
         </div>
       </div>
     </section>
-    <section class="py-7">
+    <section class="py-6 bg-gray-100">
       <div class="container">
         <div class="text-center">
           <p class="subtitle text-primary">Testimonials</p>
@@ -1998,98 +1842,101 @@
         <div class="swiper-container testimonials-slider testimonials swiper-container-horizontal">
           <!-- Additional required wrapper-->
           <div class="swiper-wrapper pt-2 pb-5" style="transform: translate3d(-1130px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide px-3 swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 545px; margin-right: 20px;">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
-              </div>
-            </div><div class="swiper-slide px-3 swiper-slide-duplicate swiper-slide-prev" style="width: 545px; margin-right: 20px;" data-swiper-slide-index="5">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
               </div>
             </div>
-            <!-- Slides-->
-            <div class="swiper-slide px-3 swiper-slide-active" style="width: 545px; margin-right: 20px;" data-swiper-slide-index="0">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
+          </div>
+          <div class="swiper-slide px-3 swiper-slide-duplicate swiper-slide-prev" style="width: 545px; margin-right: 20px;" data-swiper-slide-index="5">
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
               </div>
             </div>
-            <div class="swiper-slide px-3 swiper-slide-next" data-swiper-slide-index="1" style="width: 545px; margin-right: 20px;">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
+          </div>
+          <!-- Slides-->
+          <div class="swiper-slide px-3 swiper-slide-active" style="width: 545px; margin-right: 20px;" data-swiper-slide-index="0">
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
               </div>
             </div>
-            <div class="swiper-slide px-3" data-swiper-slide-index="2" style="width: 545px; margin-right: 20px;">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
+          </div>
+          <div class="swiper-slide px-3 swiper-slide-next" data-swiper-slide-index="1" style="width: 545px; margin-right: 20px;">
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
               </div>
             </div>
-            <div class="swiper-slide px-3" data-swiper-slide-index="3" style="width: 545px; margin-right: 20px;">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
+          </div>
+          <div class="swiper-slide px-3" data-swiper-slide-index="2" style="width: 545px; margin-right: 20px;">
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
               </div>
             </div>
-            <div class="swiper-slide px-3" data-swiper-slide-index="4" style="width: 545px; margin-right: 20px;">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
+          </div>
+          <div class="swiper-slide px-3" data-swiper-slide-index="3" style="width: 545px; margin-right: 20px;">
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
               </div>
             </div>
-            <div class="swiper-slide px-3 swiper-slide-duplicate-prev" style="width: 545px; margin-right: 20px;" data-swiper-slide-index="5">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
+          </div>
+          <div class="swiper-slide px-3" data-swiper-slide-index="4" style="width: 545px; margin-right: 20px;">
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
               </div>
             </div>
+          </div>
+          <div class="swiper-slide px-3 swiper-slide-duplicate-prev" style="width: 545px; margin-right: 20px;" data-swiper-slide-index="5">
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
+              </div>
+            </div>
+          </div>
           <div class="swiper-slide px-3 swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 545px; margin-right: 20px;" data-swiper-slide-index="0">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
               </div>
-            </div><div class="swiper-slide px-3 swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 545px; margin-right: 20px;">
-              <div class="testimonial card rounded-lg shadow border-0">
-                <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
-                <div class="text">
-                  <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                  <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
-                </div>
+            </div>
+          </div><div class="swiper-slide px-3 swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 545px; margin-right: 20px;">
+            <div class="testimonial card rounded-lg shadow border-0">
+              <div class="testimonial-avatar"><img src ="<?php echo base_url('').'assets/'?>img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Jessica Watson</strong>
               </div>
-            </div></div>
-          <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-bullets-dynamic" style="width: 80px;"><span class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main" tabindex="0" role="button" aria-label="Go to slide 1" style="left: 32px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next" tabindex="0" role="button" aria-label="Go to slide 2" style="left: 32px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next-next" tabindex="0" role="button" aria-label="Go to slide 3" style="left: 32px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4" style="left: 32px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5" style="left: 32px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6" style="left: 32px;"></span></div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-bullets-dynamic" style="width: 80px;"><span class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main" tabindex="0" role="button" aria-label="Go to slide 1" style="left: 32px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next" tabindex="0" role="button" aria-label="Go to slide 2" style="left: 32px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next-next" tabindex="0" role="button" aria-label="Go to slide 3" style="left: 32px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4" style="left: 32px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5" style="left: 32px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6" style="left: 32px;"></span></div> -->
         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
       </div>
     </section>
+    
     <section class="py-6 bg-gray-100"> 
       <div class="container">
         <div class="row mb-5">
@@ -2232,11 +2079,7 @@
     <!-- /Footer end-->
     <!-- JavaScript files-->
     <script>
-      // ------------------------------------------------------- //
-      //   Inject SVG Sprite - 
-      //   see more here 
-      //   https://css-tricks.com/ajaxing-svg-sprite/
-      // ------------------------------------------------------ //
+      
       function injectSvgSprite(path) {
       
           var ajax = new XMLHttpRequest();
