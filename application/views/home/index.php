@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0055)https://demo.bootstrapious.com/directory/1-1/index.html -->
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +7,45 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
-    <!-- Price Slider Stylesheets -->
+
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/nouislider.css">
-    <!-- Google fonts - Playfair Display-->
+    
 
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico" rel="stylesheet">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700">
-    <!-- Google fonts - Poppins-->
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700">
-    <!-- swiper-->
+ 
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/swiper.min.css">
-    <!-- Magnigic Popup-->
+    
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/magnific-popup.css">
-    <!-- theme stylesheet-->
+
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/style.default.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
+   
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/custom.css">
   
-    <!-- Favicon-->
+
     <link rel="shortcut icon" href="<?php echo base_url('').'assets/'?>img/logo.png">
   
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   
   </head>
-  <body style="padding-top: 72px; margin:0 !important"><div class="d-none"><svg width="0" height="0" class="hidden">
- 
-</svg></div>
+  <body style="padding-top: 72px; margin:0 !important"><div class="d-none"></div>
     <header class="header1">
-      <!-- Navbar-->
+      
       <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-white">
         <div class="container-fluid">
           <div class="d-flex align-items-center"><a href="<?php echo base_url('').'Home'?>" class="navbar-brand py-1"><img src="<?php echo base_url('').'assets/'?>img/logo.png" alt="Directory logo" style = "height : 45px"></a>
           
           </div>
           <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
-          <!-- Navbar Collapse -->
+         
           <div id="navbarCollapse" class="collapse navbar-collapse">            
             <ul class="navbar-nav ml-auto">
             <li class="megamenu-list-item"><a href="<?php echo base_url('').'Home'?>" class="nav-link"  aria-expanded="false" class="nav-link active"> Home</a>
               </li>
-              <!-- Megamenu-->
+
               <li class="nav-item"><a href="<?php echo base_url('').'Destination'?>" class="nav-link">Destination</a>
               </li>
              
@@ -70,7 +68,7 @@
         </div>
         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
-      <div class="container py-6 py-md-7 text-white z-index-20">
+      <div class="container py-6 py-md-7 text-white z-index-20" style="margin-top :auto;margin-left:100px">
         <div class="row">
             <div class="col-xl-10">
                 <div class="text-center text-lg-left">
@@ -257,7 +255,7 @@
     <section class="py-6">
     <div class="container">    
       <div class="row">            
-            <p class="subtitle mb-4">Choose your category</p>                 
+            <p class="subtitle mb-4">Choose your Destination</p>                 
             <div class="row gallery ml-n1 mr-n1">
               <div class="col-lg-3 col-6 px-1 mb-2">
                <div class="hovereffect">
