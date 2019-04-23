@@ -10,12 +10,11 @@
     <!-- Price Slider Stylesheets -->
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/nouislider.css">
     <!-- Google fonts - Playfair Display-->
-
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700">
-    <!-- Google fonts - Poppins-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700">
+<!-- Google fonts - Poppins-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700">
     <!-- swiper-->
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/swiper.min.css">
     <!-- Magnigic Popup-->
@@ -24,63 +23,63 @@
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/custom.css">
-  
     <!-- Favicon-->
     <link rel="shortcut icon" href="<?php echo base_url('').'assets/'?>img/logo.png">
-  
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <!-- Font Awesome CSS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  
+    <!-- <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/regular.css" integrity="sha384-avJt9MoJH2rB4PKRsJRHZv7yiFZn8LrnXuzvmZoD3fh1aL6aM6s0BBcnCvBe6XSD" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous"> -->
   </head>
-  <body style="padding-top: 72px; margin:0 !important"><div class="d-none"><svg width="0" height="0" class="hidden">
- 
-</svg></div>
-    <header class="header1">
+  <body style="padding-top: 72px;"><div class="d-none"><svg width="0" height="0" class="hidden">
+  
+</svg>
+</div>
+    <header>
       <!-- Navbar-->
       <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-white">
         <div class="container-fluid">
-          <div class="d-flex align-items-center"><a href="<?php echo base_url('').'Home'?>" class="navbar-brand py-1"><img src="<?php echo base_url('').'assets/'?>img/logo.png" alt="Directory logo" style = "height : 45px"></a>
-          
+          <div class="d-flex align-items-center"><a href="https://demo.bootstrapious.com/directory/1-1/index.html" class="navbar-brand py-1"><img src="<?php echo base_url('').'assets/'?>img/logo.png" alt="Directory logo" style = "height : 45px"></a>
+            
           </div>
           <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
           <!-- Navbar Collapse -->
           <div id="navbarCollapse" class="collapse navbar-collapse">            
-            <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="megamenu-list-item"><a href="<?php echo base_url('').'Home'?>" class="nav-link"  aria-expanded="false" class="nav-link active"> Home</a>
               </li>
               <!-- Megamenu-->
               <li class="nav-item"><a href="<?php echo base_url('').'Destination'?>" class="nav-link">Destination</a>
-              </li>
-             
+              </li>             
               <li class="nav-item"><a href="<?php echo base_url('').'Gallery'?>" class="nav-link">Gallery</a>
-              </li>            
+              </li>
               <li class="nav-item"><a  href="<?php echo base_url('').'SignUp'?>" class="nav-link">Sign up</a></li>
               <li class="nav-item mt-3 mt-lg-0 ml-lg-3 d-lg-none d-xl-inline-block"><a  href="<?php echo base_url('').'Login'?>" class="btn btn-primary">Login</a></li>
             </ul>
           </div>
         </div>
-      </nav>     
-    </header>
-    <section class="hero-home">
-      <div class="swiper-container hero-slider swiper-container-fade swiper-container-horizontal">
-        <div class="swiper-wrapper dark-overlay" style="transition-duration: 0ms;">
-          <div style="background-image: url(&quot;https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1501621965065-c6e1cf6b53e2.jpg&quot;); width: 1349px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;" class="swiper-slide swiper-slide-prev"></div>
-          <div style="background-image: url(&quot;https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1519974719765-e6559eac2575.jpg&quot;); width: 1349px; opacity: 1; transform: translate3d(-1349px, 0px, 0px); transition-duration: 0ms;" class="swiper-slide swiper-slide-active"></div>
-          <div style="background-image: url(&quot;https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1490578474895-699cd4e2cf59.jpg&quot;); width: 1349px; opacity: 0; transform: translate3d(-2698px, 0px, 0px); transition-duration: 0ms;" class="swiper-slide swiper-slide-next"></div>
-          <div style="background-image: url(&quot;https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1534850336045-c6c6d287f89e.jpg&quot;); width: 1349px; opacity: 0; transform: translate3d(-4047px, 0px, 0px); transition-duration: 0ms;" class="swiper-slide"></div>
-        </div>
-        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-    </div>
-      <div class="container py-6 py-md-7 text-white z-index-20">
-        <div class="row">
-            <div class="col-xl-10">
-                <div class="text-center text-lg-left">
-                <p class="subs letter-spacing-4 mb-2 text-col text-shadow ">The best holiday experience</p>
-                <h1 class="display-3 font-weight-bold text-shadow h1-border-bottom text-white">Picture your memories</h1>
-                </div>
-            </div>
-        </div>
-        <div class="container">
+      </nav>
      
+    </header>
+    <section style="background-image: url(https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1525610553991-2bede1a236e2.jpg);" class="d-flex align-items-center dark-overlay bg-cover">
+      <div class="container py-6 py-lg-7 text-white overlay-content text-center"> 
+        <div class="row">
+          <div class="col-xl-10 mx-auto">
+            <h1 class="display-3 font-weight-bold text-shadow">Discover Directory</h1>
+            <p class="text-lg text-shadow">Uncover the best places to eat, drink, and shop nearest to you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="search-bar rounded p-3 p-lg-4 position-relative mt-n5 z-index-20">
+        <form action="https://demo.bootstrapious.com/directory/1-1/index-2.html#">
+            <div class="form-group">
+							
 							<div class="input-group multi-control-group booking-widged">
 								<span class="input-group-addon first-addon"></span>
 								<span class="input-group-addon addon-widged addon-destination"></span>
@@ -243,156 +242,197 @@
 																					<option value="384" data-city="Yekaterinburg">Yekaterinburg</option>
 																			</optgroup>
 																	</select>
-								  <span class="input-group-btn">
+								<span class="input-group-btn">
 			                        <button id="btn_book_now" class="btn-search-destination search-form__button input-group-addon form-control button input-md  trigger-modal FR-CheckRate" data-trigger="pre-booking-modal" type="button">
-								  <span id="txt_book_now" class="search-form__button-text button__text">Check Rate</span>
+										<span id="txt_book_now" class="search-form__button-text button__text">Check Rate</span>
 									</button>
 			          </span>
-                   </div>
-                </div>
-           </div>
-        </div>
+                 </div>
+              </div>
+          </div>
+        </form>
       </div>
-    </section>
-    <section class="py-6">
-    <div class="container">    
-      <div class="row">            
-            <p class="subtitle mb-4">Choose your category</p>                 
-            <div class="row gallery ml-n1 mr-n1">
-              <div class="col-lg-3 col-6 px-1 mb-2">
-               <div class="hovereffect">
-                 <a href= "assets/img/photo-1426122402199-be02db90eb90.jpg"><img class="img-responsive" src="<?= base_url('assets/img/pram.png')?>" alt="..." width="250" height="300" ></a>
-                   <div class="text-blocktxt"> 
-                    <h4 class="gallerytitle">Bulan Madu</h4>
-                   <p>What a beautiful sunrise</p>
+    </div>
+    <section>
+    <div class="container-fluid py-5 px-lg-5">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="d-flex justify-content-between align-items-center flex-column flex-md-row mb-4">
+            <div class="mr-3">
+              <p class="mb-3 mb-md-0"><strong>12</strong> results found</p>
+            </div>
+            <div>
+              <label for="form_sort" class="form-label mr-2">Sort by</label>
+              <div class="dropdown bootstrap-select"><select name="sort" id="form_sort" data-style="btn-selectpicker" title="" class="selectpicker" tabindex="-98">
+                <option value="sortBy_0">Most popular   </option>
+                <option value="sortBy_1">Recommended   </option>
+                <option value="sortBy_2">Newest   </option>
+                <option value="sortBy_3">Oldest   </option>
+                <option value="sortBy_4">Closest   </option>
+              </select><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+            </div>
+          </div>
+          <div class="row">
+       
+            <div data-marker-id="59c0c8e33b1527bfe2abaf92" class="col-sm-6 col-xl-4 mb-5">
+              <div class="card h-100 border-0 shadow">
+                <div class="card-img-top overflow-hidden gradient-overlay"> <img src="https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1484154218962-a197022b5858.jpg" alt="Modern, Well-Appointed Room" class="img-fluid"><a href="<?php echo base_url('').'Booking'?>" class="tile-link"></a>                                 
+                </div>
+                <div class="card-body d-flex align-items-center">
+                  <div class="w-100">
+                    <h6 class="card-title"><a href="<?php echo base_url('').'Booking'?>" class="text-decoration-none text-dark">Modern, Well-Appointed Room</a></h6>
+                    <div class="d-flex card-subtitle mb-3">                      
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span>/ 2 hours</p>
                   </div>
                 </div>
-            </div>
-              <div class="col-lg-3 col-6 px-1 mb-2">
-              <div class="hovereffect">
-                <a href= "assets/img/photo-1426122402199-be02db90eb90.jpg"><img class="img-responsive" src="<?= base_url('assets/img/tamansari.jpg')?>" alt="..." width="250" height="300" ></a>
-              <div class="text-blocktxt"> 
-              <h4 class="gallerytitle">Preweding</h4>
-                 <p>What a beautiful sunrise</p>
-             </div>
-             </div>
-            </div>
-              <div class="col-lg-3 col-6 px-1 mb-2">
-              <div class="hovereffect">
-                <a href= "assets/img/photo-1426122402199-be02db90eb90.jpg"><img class="img-responsive" src="<?= base_url('assets/img/malioboro.png')?>" alt="..." width="250" height="300" ></a>
-              <div class="text-blocktxt"> 
-              <h4 class="gallerytitle">Lamaran</h4>
-                 <p>What a beautiful sunrise</p>
-             </div>
-             </div>
-            </div>
-              <div class="col-lg-3 col-6 px-1 mb-2">
-              <div class="hovereffect">
-                <a href= "assets/img/photo-1426122402199-be02db90eb90.jpg"><img class="img-responsive" src="<?= base_url('assets/img/candi.jpg')?>" alt="..." width="250" height="300" ></a>
-              <div class="text-blocktxt"> 
-              <h4 class="gallerytitle">Hari Jadi</h4>
-                 <p>What a beautiful sunrise</p>
-             </div>
-             </div>
-            </div>
-              <div class="col-lg-3 col-6 px-1 mb-2">
-              <div class="hovereffect">
-                <a href= "assets/img/photo-1426122402199-be02db90eb90.jpg"><img class="img-responsive" src="<?= base_url('assets/img/kalibiru.png')?>" alt="..." width="250" height="300" ></a>
-              <div class="text-blocktxt"> 
-              <h4 class="gallerytitle">Liburan</h4>
-                 <p>What a beautiful sunrise</p>
-             </div>
-             </div>
-            </div>
-              <div class="col-lg-3 col-6 px-1 mb-2"><a href= "assets/img/photo-1426122402199-be02db90eb90.jpg">
-              <div class="hovereffect">
-              <img class="img-responsive" src="<?= base_url('assets/img/pangilon.png')?>" alt="..." width="250" height="300" ></a> 
-              <div class="text-blocktxt"> 
-              <h4 class="gallerytitle">Menu Restoran</h4>
-                 <p>What a beautiful sunrise</p>
-             </div>
-             </div>
-            </div>
-              <div class="col-lg-3 col-6 px-1 mb-2">
-              <div class="hovereffect">
-                <a href= "assets/img/photo-1426122402199-be02db90eb90.jpg"><img class="img-responsive" src="<?= base_url('assets/img/pantai.png')?>" alt="..." width="250" height="300" ></a>
-              <div class="text-blocktxt"> 
-              <h4 class="gallerytitle">Pernikahan</h4>
-                 <p>What a beautiful sunrise</p>
-             </div>
-             </div>
-            </div>
-              <div class="col-lg-3 col-6 px-1 mb-2">
-              <div class="hovereffect"><a href= "assets/img/photo-1426122402199-be02db90eb90.jpg">
-              <img class="img-responsive" src="<?= base_url('assets/img/EMBUNG.png')?>" alt="..." width="250" height="300" ></a>
-              <div class="text-blocktxt"> 
-              <h4 class="gallerytitle">Ulang Tahun</h4>
-                 <p>What a beautiful sunrise</p>
-             </div>
-            </div>                         
               </div>
-          </div>           
-  </section>
-   
-
-  <section class="py-6 bg-gray-100" style="margin-top : -120px">
-      <div class="container">       
-        <div class="text-center pb-lg-4">
-          <p class="subtitle">How to booking</p>
-          <p class="mb-5">Jadikan setiap acara penuh kenangan dengan tiga langkah mudah</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="thumbnail" style="text-align: center;">
-                <img src="<?= base_url('assets/img/how-it-works-1.png')?>" alt="New York" width="200" height="200">
-                <p><strong>New York</strong></p>
-                <p class="pitwork">Pilih kota Anda dan pesan sesi pemotretan Anda</p>
-            </div>       
+            </div>
+            
+            <div data-marker-id="59c0c8e33b1527bfe2abaf92" class="col-sm-6 col-xl-4 mb-5">
+              <div class="card h-100 border-0 shadow">
+                <div class="card-img-top overflow-hidden gradient-overlay"> <img src="https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1484154218962-a197022b5858.jpg" alt="Modern, Well-Appointed Room" class="img-fluid"><a href="detail-rooms.html" class="tile-link"></a>                 
+                 
+                </div>
+                <div class="card-body d-flex align-items-center">
+                  <div class="w-100">
+                    <h6 class="card-title"><a href="detail-rooms.html" class="text-decoration-none text-dark">Modern, Well-Appointed Room</a></h6>
+                    <div class="d-flex card-subtitle mb-3">
+                      
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span>/ 2 hours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-marker-id="59c0c8e33b1527bfe2abaf92" class="col-sm-6 col-xl-4 mb-5">
+              <div class="card h-100 border-0 shadow">
+                <div class="card-img-top overflow-hidden gradient-overlay"> <img src="https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1484154218962-a197022b5858.jpg" alt="Modern, Well-Appointed Room" class="img-fluid"><a href="detail-rooms.html" class="tile-link"></a>                 
+                 
+                </div>
+                <div class="card-body d-flex align-items-center">
+                  <div class="w-100">
+                    <h6 class="card-title"><a href="detail-rooms.html" class="text-decoration-none text-dark">Modern, Well-Appointed Room</a></h6>
+                    <div class="d-flex card-subtitle mb-3">
+                      
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span>/ 2 hours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-marker-id="59c0c8e33b1527bfe2abaf92" class="col-sm-6 col-xl-4 mb-5">
+              <div class="card h-100 border-0 shadow">
+                <div class="card-img-top overflow-hidden gradient-overlay"> <img src="https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1484154218962-a197022b5858.jpg" alt="Modern, Well-Appointed Room" class="img-fluid"><a href="detail-rooms.html" class="tile-link"></a>                                   
+                </div>
+                <div class="card-body d-flex align-items-center">
+                  <div class="w-100">
+                    <h6 class="card-title"><a href="detail-rooms.html" class="text-decoration-none text-dark">Modern, Well-Appointed Room</a></h6>
+                    <div class="d-flex card-subtitle mb-3">
+                      
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span>/ 2 hours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-marker-id="59c0c8e33b1527bfe2abaf92" class="col-sm-6 col-xl-4 mb-5">
+              <div class="card h-100 border-0 shadow">
+                <div class="card-img-top overflow-hidden gradient-overlay"> <img src="https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1484154218962-a197022b5858.jpg" alt="Modern, Well-Appointed Room" class="img-fluid"><a href="detail-rooms.html" class="tile-link"></a>                                  
+                </div>
+                <div class="card-body d-flex align-items-center">
+                  <div class="w-100">
+                    <h6 class="card-title"><a href="detail-rooms.html" class="text-decoration-none text-dark">Modern, Well-Appointed Room</a></h6>
+                    <div class="d-flex card-subtitle mb-3">
+                      
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span>/ 2 hours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-marker-id="59c0c8e33b1527bfe2abaf92" class="col-sm-6 col-xl-4 mb-5">
+              <div class="card h-100 border-0 shadow">
+                <div class="card-img-top overflow-hidden gradient-overlay"> <img src="https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1484154218962-a197022b5858.jpg" alt="Modern, Well-Appointed Room" class="img-fluid"><a href="detail-rooms.html" class="tile-link"></a>                                  
+                </div>
+                <div class="card-body d-flex align-items-center">
+                  <div class="w-100">
+                    <h6 class="card-title"><a href="detail-rooms.html" class="text-decoration-none text-dark">Modern, Well-Appointed Room</a></h6>
+                    <div class="d-flex card-subtitle mb-3">
+                      
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span>/ 2 hours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div data-marker-id="59c0c8e33b1527bfe2abaf92" class="col-sm-6 col-xl-4 mb-5">
+              <div class="card h-100 border-0 shadow">
+                <div class="card-img-top overflow-hidden gradient-overlay"> <img src="https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1484154218962-a197022b5858.jpg" alt="Modern, Well-Appointed Room" class="img-fluid"><a href="detail-rooms.html" class="tile-link"></a>                                   
+                </div>
+                <div class="card-body d-flex align-items-center">
+                  <div class="w-100">
+                    <h6 class="card-title"><a href="detail-rooms.html" class="text-decoration-none text-dark">Modern, Well-Appointed Room</a></h6>
+                    <div class="d-flex card-subtitle mb-3">
+                      
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span>/ 2 hours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div data-marker-id="59c0c8e33b1527bfe2abaf92" class="col-sm-6 col-xl-4 mb-5">
+              <div class="card h-100 border-0 shadow">
+                <div class="card-img-top overflow-hidden gradient-overlay"> <img src="https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1484154218962-a197022b5858.jpg" alt="Modern, Well-Appointed Room" class="img-fluid"><a href="detail-rooms.html" class="tile-link"></a>                                  
+                </div>
+                <div class="card-body d-flex align-items-center">
+                  <div class="w-100">
+                    <h6 class="card-title"><a href="detail-rooms.html" class="text-decoration-none text-dark">Modern, Well-Appointed Room</a></h6>
+                    <div class="d-flex card-subtitle mb-3">
+                      
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span>/ 2 hours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+            <div data-marker-id="59c0c8e33b1527bfe2abaf92" class="col-sm-6 col-xl-4 mb-5">
+              <div class="card h-100 border-0 shadow">
+                <div class="card-img-top overflow-hidden gradient-overlay"> <img src="https://d19m59y37dris4.cloudfront.net/directory/1-1/img/photo/photo-1484154218962-a197022b5858.jpg" alt="Modern, Well-Appointed Room" class="img-fluid"><a href="detail-rooms.html" class="tile-link"></a>                                  
+                </div>
+                <div class="card-body d-flex align-items-center">
+                  <div class="w-100">
+                    <h6 class="card-title"><a href="detail-rooms.html" class="text-decoration-none text-dark">Modern, Well-Appointed Room</a></h6>
+                    <div class="d-flex card-subtitle mb-3">
+                      
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span>/2 hours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div class="col-lg-4">
-          <div class="thumbnail" style="text-align: center;">
-              <img src="<?= base_url('assets/img/how-it-works-2.png')?>" alt="New York" width="200" height="200">
-              <p><strong>New York</strong></p>
-              <p>Kami akan menghubungkan Anda dengan fotografer lokal yang akan mengambil sekitar 200 foto selama sesi pemotretan.</p>
-            </div>       
-          </div>
-        <div class="col-lg-4">
-        <div class="thumbnail" style="text-align: center;">
-        <img src="<?= base_url('assets/img/how-it-works-3.png')?>" alt="New York" width="200" height="200">
-        <p class="pitwork "><strong>New York</strong></p>
-        <p>Dalam 3 hari kerja, Anda dapat memilih dan mengunduh hingga 40 foto resolusi tinggi yang telah diedit.</p>
-      </div>       
-        </div>
+          <!-- Pagination -->
+          <nav aria-label="Page navigation example">
+            <ul class="pagination pagination-template d-flex justify-content-center">
+              <li class="page-item"><a href="#" class="page-link"> <i class="fa fa-angle-left"></i></a></li>
+              <li class="page-item active"><a href="#" class="page-link">1</a></li>
+              <li class="page-item"><a href="#" class="page-link">2</a></li>
+              <li class="page-item"><a href="#" class="page-link">3</a></li>
+              <li class="page-item"><a href="#" class="page-link"> <i class="fa fa-angle-right"></i></a></li>
+            </ul>
+          </nav>
         </div>
       </div>
+    </div>
     </section>
-    <section class="py-6"  style="margin-top : -120px">
-      <div class="container">
-        <div class="row">
-        <div class="col-lg-6">
-            <div class="text-block">
-              <h3 class="mb-3">Fotografer lokal</h3>
-              <p class="text-muted"> SweetEscape memiliki jaringan lebih dari 2000+ fotografer lokal di lebih dari 400+ kota di seluruh dunia. Kami memilih sendiri fotografer kami dengan ketrampilan dan gaya terbaik dari seluruh dunia.
-
-                Jika Anda sedang berlibur, fotografer kami tidak hanya mengabadikan foto-foto indah, mereka juga dapat menunjukkan tempat-tempat terbaik di kota tersebut (di mana bisa mendapatkan kopi paling nikmat dan hal-hal lain yang tak boleh dilewatkan).</p>     
-                <p class="text-muted"> SweetEscape memiliki jaringan lebih dari 2000+ fotografer lokal di lebih dari 400+ kota di seluruh dunia. Kami memilih sendiri fotografer kami dengan ketrampilan dan gaya terbaik dari seluruh
-
-               </p>               
-            </div>
-        </div> 
-        <div class="col-lg-6">
-        <div class="text-block mt-5">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-        </div>
-            </div>
-        </div>         
-        </div>
-      </div>
+    
     </section>
-  </section>
-    <footer class="position-relative z-index-10">    
+    <footer class="position-relative z-index-10">
+      <!-- Main block - menus, subscribe form-->
       <div class="py-6 bg-gray-800 text-gray-300 text-muted"> 
         <div class="container">
           <div class="row">
@@ -418,11 +458,11 @@
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" style="transform : translateX(30%)">
             <h6 class="text-uppercase text-white mb-3">Company</h6>
               <ul class="list-unstyled">
-                <li><a href ="#" data-toggle="modal" data-target="#modalRegisterForm" class="text-muted">Contact</a></li>
-                <li><a href="https://demo.bootstrapious.com/directory/1-1/pricing.html" class="text-muted">Pricing</a></li>
-                <li><a href="https://demo.bootstrapious.com/directory/1-1/text.html" class="text-muted">Text page</a></li>
-                <li><a href="<?php echo base_url('').'faq'?>" class="text-muted">F.A.Q.s  <span class="badge badge-info ml-1">New</span></a></li>
-                <li><a href="https://demo.bootstrapious.com/directory/1-1/coming-soon.html" class="text-muted">Coming soon</a></li>
+                <li><a href="https://demo.bootstrapious.com/directory/1-1/contact.html" class="text-muted">Contact                                   </a></li>
+                <li><a href="https://demo.bootstrapious.com/directory/1-1/pricing.html" class="text-muted">Pricing                                   </a></li>
+                <li><a href="https://demo.bootstrapious.com/directory/1-1/text.html" class="text-muted">Text page                                   </a></li>
+                <li><a href="https://demo.bootstrapious.com/directory/1-1/faq.html" class="text-muted">F.A.Q.s  <span class="badge badge-info ml-1">New</span>                                   </a></li>
+                <li><a href="https://demo.bootstrapious.com/directory/1-1/coming-soon.html" class="text-muted">Coming soon                                   </a></li>
               </ul>
             </div>
             <div  class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -437,8 +477,27 @@
           </div>
         </div>
       </div>
+      <!-- Copyright section of the footer-->
       
     </footer>
+    <!-- /Footer end-->
+    <!-- JavaScript files-->
+    <script>
+     
+      function injectSvgSprite(path) {
+      
+          var ajax = new XMLHttpRequest();
+          ajax.open("GET", path, true);
+          ajax.send();
+          ajax.onload = function(e) {
+          var div = document.createElement("div");
+          div.className = 'd-none';
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+          }
+      }    
+     
+    </script>
     <!-- jQuery-->
     <script src ="<?php echo base_url('').'assets/'?>js/jquery.min.js"></script>
     <!-- Bootstrap JS bundle - Bootstrap + PopperJS-->
@@ -457,5 +516,4 @@
     <!-- Main Theme JS file    -->
     <script src ="<?php echo base_url('').'assets/'?>js/theme.js"></script>
   
-
 </body></html>
