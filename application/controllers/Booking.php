@@ -20,6 +20,13 @@ class Booking extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('booking/book'); // book
+		$this->load->model('Masters','master');
+		
+		$data['category'] = $this->master->category();
+		//echo json_encode($data['category']);
+		//exit();
+
+		$this->load->view('booking/book',$data); // book
 	}
+	
 }
