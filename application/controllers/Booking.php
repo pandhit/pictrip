@@ -23,10 +23,13 @@ class Booking extends CI_Controller {
 		$this->load->model('Masters','master');
 		
 		$data['category'] = $this->master->category();
+		$data['destination'] = $this->master->destination();
 		//echo json_encode($data['category']);
 		//exit();
 
 		$this->load->view('booking/book',$data); // book
+		$this->load->view('booking/footer'); 
 	}
+	
 	
 }

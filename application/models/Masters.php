@@ -13,4 +13,15 @@ Class Masters extends CI_Model {
         return $result->result_array();;
     }
 	
+	public function destination($where=array())
+    {
+        $this->db->select('id,name');
+        if(!empty($where))
+        {
+            $this->db->where($where);
+        }
+        $result = $this->db->get('destination');
+        return $result->result_array();;
+    }
+	
 }
