@@ -27,8 +27,11 @@ class Booking extends CI_Controller {
 		//echo json_encode($data['category']);
 		//exit();
 
+		$this->load->view('main/global_header'); 
+		$this->load->view('main/global_headbar'); 
 		$this->load->view('booking/book',$data); // book
 		$this->load->view('booking/footer'); 
+		$this->load->view('main/global_footer'); 
 	}
 	
 	

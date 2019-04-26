@@ -1,64 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Picmo</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <!-- Price Slider Stylesheets -->
-    <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/nouislider.css">
-    <!-- Google fonts - Playfair Display-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700">
-    <!-- Google fonts - Poppins-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700">
-    <!-- swiper-->
-    <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/swiper.min.css">
-    <!-- Magnigic Popup-->
-    <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/magnific-popup.css">
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/style.default.css" id="theme-stylesheet">
-    <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/bootstrap-datepicker3.min.css">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="<?php echo base_url('').'assets/'?>css/custom.css">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="<?php echo base_url('').'assets/'?>img/logo.png">
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-    <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">  
-  </head>
-  <body style="padding-top: 72px;" class="">
-  <div class="d-none">
-	<svg width="0" height="0" class="hidden"></svg>
-  </div>
-<header>
-      <!-- Navbar-->
-      <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-white">
-        <div class="container-fluid">
-        <div class="d-flex align-items-center"><a href="<?php echo base_url('').'Home'?>" class="navbar-brand py-1"><img src="<?php echo base_url('').'assets/'?>img/logo.png" alt="Directory logo" style = "height : 45px"></a>
-            
-          </div>
-          <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
-          <!-- Navbar Collapse -->
-          <div id="navbarCollapse" class="collapse navbar-collapse">            
-            <ul class="navbar-nav ml-auto">
-            <li class="megamenu-list-item"><a href="<?php echo base_url('').'Home'?>" class="nav-link"  aria-expanded="false" class="nav-link active"> Home</a>
-              </li>
-              <!-- Megamenu-->
-              <li class="nav-item"><a href="<?php echo base_url('').'Destination'?>" class="nav-link">Destination</a>
-              </li>             
-              <li class="nav-item"><a href="<?php echo base_url('').'Gallery'?>" class="nav-link">Gallery</a>
-              </li>
-              <li class="nav-item"><a  href="<?php echo base_url('').'SignUp'?>" class="nav-link">Sign up</a></li>
-              <li class="nav-item mt-3 mt-lg-0 ml-lg-3 d-lg-none d-xl-inline-block"><a  href="<?php echo base_url('').'Login'?>" class="btn btn-primary">Login</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- /Navbar -->
-    </header>
+
     <div class="container py-5">
       <div class="row">
         <div class="col-lg-8"> 
@@ -154,9 +94,5 @@ please check the data input again
       </div>
     </div>   
 	
-    <!-- Footer-->
-    </footer>
     
       
-
-</body></html>
