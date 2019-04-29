@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-lg-8"> 
           <div class="text-block">           
-            <h1>Prambanan</h1>
+            <h1 style="margin-top: 52px;">Prambanan</h1>
             <p class="text-muted text-uppercase mb-4">Wisata Sejarah</p>
            
             <p class="text-muted font-weight-light">Candi Prambanan atau Candi Roro Jonggrang (Hanacaraka: ꦕꦤ꧀ꦝꦶ​ꦥꦿꦩ꧀ꦧꦤꦤ꧀ , Candhi Prambanan) adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu Brahma sebagai dewa pencipta, Wishnu sebagai dewa pemelihara, dan Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna 'Rumah Siwa'), dan memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter yang menujukkan bahwa di candi ini dewa Siwa lebih diutamakan. </p>
@@ -32,6 +32,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-4">
           <div style="top: 100px;" class="p-4 shadow ml-lg-4 rounded sticky-top">
             <p class="text-muted"><span class="text-primary h2">$120</span> /2 hours</p>
@@ -39,10 +40,11 @@
             <form id="booking-form" autocomplete="off" class="form">
               <div class="form-group">
                 <label for="bookingDate" class="form-label">Date *</label>
-				<div class="input-group date">
+				  <div class="input-group date">
                     <input class="form-control" type="text" name="bookingDate" id="bookingDate" data-date-start-date="0d" value="<?php echo date('d-F-Y');?>" style="cursor: pointer;">
                 </div>
-              </div>              
+              </div>   
+
               <div class="form-group mb-4">
                 <label for="category" class="form-label">Category*</label>
                 <select name="category" id="category" class="form-control" onChange="changecategory();">
@@ -70,22 +72,57 @@
               </div>
 			  
 			  <div class="form-group mb-4">
-                <label for="time" class="form-label">Start Time*</label>
+                <label for="time" class="form-label">Durasi*</label>
                 <select name="time" id="time" class="form-control">
                  <option value="1">-- choose -- </option>
                   <option value="2">08.00 AM</option>
                   <option value="3">09.00 AM</option>
                   <option value="4">10.00 AM</option>                
                 </select>
-              </div>
-             
+         </div>
+          
+			  <div class="form-group mb-4">
+                <label for="time" class="form-label">Paket Foto*</label>
+                <select name="time" id="time" class="form-control">
+                 <option value="1">-- choose -- </option>
+                  <option value="2">08.00 AM</option>
+                  <option value="3">09.00 AM</option>
+                  <option value="4">10.00 AM</option>                
+                </select>
+         </div>
+         <div class="form-group mb-4">
+                <label for="time" class="form-label">Item*</label>
+                <select name="time" id="time" class="form-control">
+                 <option value="1">-- choose -- </option>
+                  <option value="2">08.00 AM</option>
+                  <option value="3">09.00 AM</option>
+                  <option value="4">10.00 AM</option>                
+                </select>
+         </div>
+         <div class="form-group mb-4">
+                <label for="time" class="form-label">Location*</label>
+                <select name="time" id="time" class="form-control">
+                 <option value="1">-- choose -- </option>
+                  <option value="2">08.00 AM</option>
+                  <option value="3">09.00 AM</option>
+                  <option value="4">10.00 AM</option>                
+                </select>
+         </div>
+         <div class="form-group mb-4">
+                <label for="time" class="form-label">Meeting Location*</label>
+                <select name="time" id="time" class="form-control">
+                 <option value="1">-- choose -- </option>
+                  <option value="2">08.00 AM</option>
+                  <option value="3">09.00 AM</option>
+                  <option value="4">10.00 AM</option>                
+                </select>
+         </div>
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Book your stay</button>
+                <button type="submit" onclick="window.location.href='<?php echo base_url('Invoice')?>'" class="btn btn-primary btn-block">Book your stay</button>
               </div>
             </form>
             <p class="text-muted text-sm text-center">
-please check the data input again
-.</p>
+            please check the data input again.</p>
             <hr class="my-4">
             <div class="text-center">            
             </div>

@@ -1,6 +1,6 @@
 
 <!-- page script -->
-    </script>
+    <script>
     <!-- jQuery-->
     <!-- jQuery-->
     <script src ="<?php echo base_url('').'assets/'?>js/jquery.min.js"></script>
@@ -12,7 +12,7 @@
     <script src ="<?php echo base_url('').'assets/'?>js/smooth-scroll.polyfills.min.js"></script>
     <!-- Bootstrap Select-->
     <script src ="<?php echo base_url('').'assets/'?>js/bootstrap-select.min.js"></script>
-    <!-- Object Fit Images - Fallback for browsers that don't support object-fit-->
+
     <script src ="<?php echo base_url('').'assets/'?>js/ofi.min.js"></script>
     <!-- Swiper Carousel                       -->
     <script src ="<?php echo base_url('').'assets/'?>js/swiper.min.js"></script>
